@@ -1,8 +1,8 @@
 class Fansctl < Formula
   desc "macOS fan control & power survey for Apple Silicon — menu bar + CLI, one binary"
   homepage "https://github.com/askender/fansctl"
-  url "https://github.com/askender/fansctl/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "a58248f49b2a944d5e30e224a442aaa22f0aa0f9315254c923342efcdc1a597f"
+  url "https://github.com/askender/fansctl/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "e788182581c7ea5303c54a22ab50df2948b778b906b0502ca235b2a14ca07bea"
   license "AGPL-3.0-or-later"
 
   depends_on macos: :monterey
