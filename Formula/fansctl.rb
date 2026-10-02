@@ -8,6 +8,7 @@ class Fansctl < Formula
   depends_on macos: :monterey
 
   def install
+    bin.mkpath
     system "make", "install", "PREFIX=#{bin}"
   end
 
